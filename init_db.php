@@ -1,27 +1,17 @@
 <?php
 // Database configuration
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "sql.infinityfree.com";
+$username = "if0_39213265";
+$password = "webprogram24252";
+$dbname = "if0_39213265_personal_DB";
 
 // Create connection without database
-$conn = new mysqli($servername, $username, $password);
+$conn = new mysqli($servername, $username, $password, $dbname);
 
 // Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
-
-// Create database if it doesn't exist
-$sql = "CREATE DATABASE IF NOT EXISTS personal_DB";
-if ($conn->query($sql) === TRUE) {
-    echo "Database created successfully or already exists<br>";
-} else {
-    echo "Error creating database: " . $conn->error . "<br>";
-}
-
-// Select the database
-$conn->select_db("personal_DB");
 
 // Create contact_submissions table
 $sql = "CREATE TABLE IF NOT EXISTS contact_submissions (
