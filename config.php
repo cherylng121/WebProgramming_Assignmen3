@@ -1,16 +1,16 @@
 <?php
 // Database configuration
-$db_host = "sql.infinityfree.com"; // InfinityFree's database host
-$db_user = ""; // You'll get this from InfinityFree control panel
-$db_pass = ""; // You'll get this from InfinityFree control panel
-$db_name = ""; // You'll get this from InfinityFree control panel
+$db_host = "sql313.infinityfree.com"; // InfinityFree's database host
+$db_user = "if0_39213265"; // You'll get this from InfinityFree control panel
+$db_pass = "webprogram24252"; // You'll get this from InfinityFree control panel
+$db_name = "if0_39213265_personal_DB"; // You'll get this from InfinityFree control panel
 
 // Enable error reporting for debugging
 error_reporting(E_ALL);
 ini_set('display_errors', 1);
 
 // Create connection
-$conn = new mysqli($db_host, $db_user, $db_pass);
+$conn = new mysqli($db_host, $db_user, $db_pass,$db_name);
 
 // Check connection
 if ($conn->connect_error) {
