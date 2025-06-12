@@ -1,6 +1,6 @@
 <?php
 // Database configuration
-$servername = "sql.infinityfree.com";
+$servername = "sql313.infinityfree.com";
 $username = "if0_39213265";
 $password = "webprogram24252";
 $dbname = "if0_39213265_personal_DB";
