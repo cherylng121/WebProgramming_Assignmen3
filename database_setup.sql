@@ -34,6 +34,8 @@ INSERT INTO guestbook (name, message, post_date) VALUES
 ('Diana Prince', 'Amazing portfolio! The responsive design is excellent.', '2024-11-04 16:20:00'),
 ('Ethan Hunt', 'Professional looking site with great functionality.', '2024-11-05 11:10:00');
 
-INSERT INTO contact_submissions (name, email, subject, message, submission_date) VALUES
-('John Doe', 'john.doe@example.com', 'Website Inquiry', 'I am interested in learning more about your web development skills.', '2024-11-01 12:00:00'),
-('Jane Smith', 'jane.smith@example.com', 'Collaboration Request', 'Would love to collaborate on a project with your team.', '
+INSERT INTO contact_submissions (name, email, subject, message, submission_date) 
+VALUES
+('Lim En Dhong', 'john.doe@example.com', 'Website Inquiry', 'I am interested in learning more about your web development skills.', '2024-11-01 12:00:00'),
+('Ng Jin En', 'ngjinen@graduate.utm.my', 'Web Programming', 'I am interested in learning more about your web development skills.', '2024-11-01 12:00:00),
+('Yeo Wern Min', 'abcs@example.com', 'Feedback on Portfolio', 'Your portfolio is very impressive. I would love to collaborate on future projects.', '2024-11-01 12:00:00');
