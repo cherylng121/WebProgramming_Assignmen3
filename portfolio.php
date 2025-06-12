@@ -1,9 +1,9 @@
 <?php
 // Database configuration
 $servername = "localhost"; // Change this based on your hosting provider
-$username = "your_db_username"; // Replace with your database username
-$password = "your_db_password"; // Replace with your database password
-$dbname = "your_database_name"; // Replace with your database name
+$username = "root"; // Replace with your database username
+$password = ""; // Replace with your database password
+$dbname = "portfolio_db"; // Replace with your database name
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
